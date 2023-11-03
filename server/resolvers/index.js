@@ -23,7 +23,7 @@ export const resolvers = {
             }).sort({
                 updatedAt: 'desc',
             });
-            console.log({ folders, context });
+            // console.log({ folders, context });
             return folders;
         },
         folder: async (parent, args) => {
