@@ -7,8 +7,8 @@ import { graphQLRequest } from '../utils/request';
 
 const Login = () => {
   const auth = getAuth();
-  const { user } = useContext(AuthContext);
-  const navigate = useNavigate();
+  // const { user } = useContext(AuthContext);
+  // const navigate = useNavigate();
 
   const handleLoginWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
